@@ -1,0 +1,370 @@
+@font-face {
+    font-family: ('poppins')sans-serif;
+    src: url('../font/Poppins-Bold.ttf');
+    font-weight: 700;
+
+}
+@font-face {
+    font-family:  ('Poppins'), sans-serif; 
+    src: url('../font/Poppins-SemiBold.ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family:  ('Poppins'), sans-serif ;
+    src: url('../font/Poppins-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: ('Poppins'), sans-serif ;
+    src: url('../font/Poppins-Medium.ttf');
+    font-weight: 500;
+}
+
+
+:root {
+    --primary:#5143d9;
+    --secondary:#dbdbf1;
+    --tertiary:#0b0a12;
+    --text-primary:#0b0a12;
+    --text-secondary:#76777b;
+    --text-tertiary:#FFF;
+    --text-light-green:#0cbc87;
+    --text-yellow:#f7c32e;
+    --button-primary:var(--primary);
+    --button-secondary:var(--text-secondary);
+    --button-tertiary :#edecfb;
+    --hover-text:var(--primary);
+    --bg-light-green:#e6f8f3;
+    --bg-light-red:#fbe9eb;
+    --bg-light-blue: #e7f6f8;
+    --bg-light-orange:#fff2e7 ;
+    --bg-orange:#fd7e14;
+    --bg-light-pink:#fbe9eb;
+    --bg-light-grey:#f5f5f6;
+}
+
+
+body{
+    font-family:  ('Poppins'), sans-serif ;
+    src: url('../font/Poppins-Regular.ttf');
+    font-weight: 400px;
+}
+.profil-icon {
+    width: 40px;
+    height: auto;
+}
+.text-blue {
+    color: var(--primary);
+}
+.nav-buttun-text{
+    color: var(--text-primary);
+}
+.position-absolute {
+    position: absolute;
+}
+.input-position {
+    position: absolute;
+    top: -260px;
+    left: 0px;
+}
+.footer {
+    background-color: var(--tertiary);
+}
+.footer-link {
+    color: var(--secondary);
+}
+.footer-hedding {
+    color: var(--text-tertiary);
+}
+.position-relative {
+    position: relative;
+}
+.btn-light {
+    border: none;
+
+}
+.btn-light {
+    background-color: var(--button-tertiary) ;
+}
+.h1-line-color {
+    color: var(--primary);
+}
+.text-grey {
+    color: var(--text-secondary);
+}
+.small-rounded-img {
+    position: absolute;
+    left: -10px;
+    top: 30px;
+}
+.small-rounded-img-w {
+    width: 60px;
+    height: 60px;
+}
+.li-small-images {
+    width:40px;
+    height: 40px;
+}
+.rounded-img-position {
+    position: absolute;
+    left: -20px;
+    top: 140px;
+}
+.rounded-img-w {
+    width: 80px;
+    height: 80px;
+}
+.headphone-icon {
+    background-color:rgba(234, 235, 238, 0.6);
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+} 
+
+.tertiary-button {
+    background-color:var(--button-tertiary);
+    color: var(--primary);
+}
+.small-rounded-div {
+    width: 55px;
+    height: auto;
+}
+.iframe-video {
+   width: 50px;
+   height: auto;
+}
+.text-yellow {
+    color: var(--text-yellow);
+}
+.yellow-dots {
+    position: absolute;
+    bottom: 15px;
+    right: -25px;
+}
+
+.position-star {
+    position: absolute;
+    top:-40px;
+    left:-10px;
+}
+.position-dots-grey {
+    position: absolute;
+    bottom: -45px;
+    right: -5px;
+    z-index: -1;
+    color:var(--text-secondary) ;
+}
+.bg-lg-light-green {
+    background-color: var(--bg-light-green);
+}
+.bg-light-red {
+    background-color:var(--bg-light-red);
+}
+.bg-light-orange {
+    background-color:var(--bg-light-orange);
+}
+.bg-light-blue {
+    background-color:var(--bg-light-blue);
+}
+.carousel {
+    width: 100%;
+    height: auto;
+}
+.small-slider-img {
+    width: 150px;
+    height: 150px;
+}
+.text-light-green {
+    color: var(--text-light-green);
+}
+.card.border-none {
+    border: 0px;
+}
+.black-button-position {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background-color: var(--tertiary);
+    color: var(--text-tertiary);
+    padding: 3px 15px;
+}
+.partners {
+    filter:grayscale(100%);
+    transition: filter 1s;
+}
+.bg-grey {
+    background-color: var(--bg-light-grey);
+}
+.font-black {
+    color: var(--tertiary);
+}
+.partners:hover{
+    filter: grayscale(0%);
+
+}
+.black-white-img {
+    width: 160px;
+    height: auto;
+}
+.emoji-div {
+    background-color: var(--bg-orange);
+    width: 80px;
+    height: auto;
+}
+.emoji-position {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+.fill-grey {
+    fill: var(--secondary);
+}
+.fill-yellow {
+    fill: var(--text-yellow);
+}
+.row-position {
+    position: absolute;
+    bottom: 50px;
+
+}
+.carousel-control-prev-icon {
+    color: var(--tertiary);
+}
+.modal-content {
+    border: none;
+    background: transparent;
+}
+
+.z-index {
+    z-index: -1;
+}
+.h3-hedding {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.download-apps-img {
+    width:120px ;
+    height: auto;
+}
+.footer-payment-icon {
+    width: 40px;
+}
+.footer-payment-icon-payble {
+    width: 65px;
+}
+.fixed-button {
+    position: fixed;
+    bottom: 0px;
+    right: 50px;
+}
+.btn-primary {
+    background-color: var(--primary);
+}
+.h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px
+}
+.h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--text-primary);
+}
+.availability-input {
+    position: absolute;
+    top:-12px;
+    left:60px;
+    z-index: 3;
+    background-color: var(--text-tertiary);
+}
+
+.margin-left{
+    margin-left: -15px;
+}
+.holides-section-ul {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+}
+.like-icon-position {
+    position: absolute;
+    left: 70px;
+    bottom: 30px;
+}
+.bg-light-pink {
+    background-color: var(--bg-light-pink);
+}
+.modal.fade.show {
+    position: fixed;
+    right: 50%;
+    left: 0%;
+    background-color: var(--tertiary);
+    
+}
+.button:focus:not(:focus-visible) {
+    outline: none;
+}
+.btn-close {
+    background-color: var(--text-tertiary);
+}
+.navbar-toggler {
+    border: 0px;
+    box-shadow: none !important;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:999px) {
+ 
+    
+.h1 {
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 80px;
+    color: var(--text-primary);
+}
+.h1-line-position {
+    position: absolute;
+    top: 140px;
+    left: 60px;
+}
+.h2 {
+    font: 700;
+    font-size: 48px;
+    line-height: 60px
+}
+.headphone-icon {
+    background-color:rgba(234, 235, 238, 0.6);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -30px;
+    right: -30px;
+} 
+
+.holides-section-ul {
+    position: absolute;
+    bottom: 25px;
+    left: 80px;
+}
+.position-star {
+    position: absolute;
+    top:-40px;
+    left:25px;
+}
+.margin-top {
+    margin-top: -170px;
+}
+.search-icon {
+    position: absolute;
+    right: 195px;
+}
+}
