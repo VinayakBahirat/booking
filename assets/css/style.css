@@ -75,6 +75,9 @@ body{
 .footer-link {
     color: var(--secondary);
 }
+.footer-text {
+    color: var(--secondary);
+}
 .footer-hedding {
     color: var(--text-tertiary);
 }
@@ -161,6 +164,9 @@ body{
 }
 .bg-lg-light-green {
     background-color: var(--bg-light-green);
+}
+.bg-green {
+    background-color: var(--text-light-green);
 }
 .bg-light-red {
     background-color:var(--bg-light-red);
@@ -257,8 +263,8 @@ body{
 }
 .fixed-button {
     position: fixed;
-    bottom: 0px;
-    right: 50px;
+    bottom: 40px;
+    right: 40px;
 }
 .btn-primary {
     background-color: var(--primary);
@@ -292,14 +298,14 @@ body{
 }
 .like-icon-position {
     position: absolute;
-    left: 70px;
-    bottom: 30px;
+   bottom: 50px;
+   left: -15px;
 }
 .bg-light-pink {
     background-color: var(--bg-light-pink);
 }
 .modal.fade.show {
-    background-color: var(--tertiary);
+    background-color: rgba(0, 0, 0, 0.9);
     
 }
 .button:focus:not(:focus-visible) {
@@ -323,12 +329,50 @@ body{
  width: 70vw;
  height: 70vh;
 }
+.small-font {
+    font-size: 12px;
+}
+.nav-font-sixe {
+    font-size: 16px;
+}
+.dropdown-menu.shadow .dropdown-item:hover {
+    background-color: rgba(81, 67, 217, 0.1);
+    border-radius: 8px;
+    color: var(--primary);
+}
+.dropdown-menu.shadow .dropdown-item .hover-none:hover {
+    background-color: transparent !important;
+}
 
-
-
-
-
-
+.btn:first-child:active {
+    border: 0px;
+}
+.red:hover {
+    color: #d6293e !important;
+    background-color: rgba(214, 41, 62, 0.1) !important;
+}
+.btn-close {
+    position: absolute;
+    right: -40%;
+    top:20px;
+}
+.silder-dots-img {
+        position: absolute;
+        bottom: -45px;
+        right: -12px;
+        z-index: -1;
+        color:var(--text-secondary) ;
+}
+.slider-img {
+    width: 430px;
+    height: auto;
+}
+.footer-link:hover {
+    color: var(--primary);
+}
+.btn-group {
+    background-color:var(--text-tertiary) ;
+}
 @media screen and (min-width:999px) {
  
     
