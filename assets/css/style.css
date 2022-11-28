@@ -81,10 +81,11 @@ body{
 }
 .btn-light {
     border: none;
-
+    background-color: var(--button-tertiary);
 }
-.btn-light {
-    background-color: var(--button-tertiary) ;
+.btn-light:hover {
+    background-color: var(--button-tertiary) !important;
+   
 }
 .h1-line-color {
     color: var(--primary);
@@ -102,8 +103,8 @@ body{
     height: 60px;
 }
 .li-small-images {
-    width:40px;
-    height: 40px;
+    width:30px;
+    height: 30px;
 }
 .rounded-img-position {
     position: absolute;
@@ -373,5 +374,9 @@ body{
 .download-apps-img {
     width:120px ;
     height: auto;
+}
+.li-small-images {
+    width:40px;
+    height: 40px;
 }
 }
