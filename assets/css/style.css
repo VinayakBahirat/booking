@@ -141,7 +141,7 @@ body{
 .yellow-dots {
     position: absolute;
     bottom: 15px;
-    right: -25px;
+    right: -23px;
 }
 
 .position-star {
@@ -245,10 +245,7 @@ body{
     font-weight: 600;
     line-height: 26px;
 }
-.download-apps-img {
-    width:120px ;
-    height: auto;
-}
+
 .footer-payment-icon {
     width: 40px;
 }
@@ -271,7 +268,7 @@ body{
 .h1 {
     font-size: 40px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 40px;
     color: var(--text-primary);
 }
 .availability-input {
@@ -314,8 +311,14 @@ body{
 .navbar-toggler {
     border: 0px;
     box-shadow: none !important;
+    padding: 0px;
 }
-
+.card:hover {
+    color: var(--primary);
+}
+.text-dark:hover {
+    color: var(--primary) !important;
+}
 
 
 
@@ -366,5 +369,9 @@ body{
 .search-icon {
     position: absolute;
     right: 195px;
+}
+.download-apps-img {
+    width:120px ;
+    height: auto;
 }
 }
